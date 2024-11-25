@@ -3,16 +3,17 @@
     ```sh
     python -m venv seimbangin
     ```
-Aktifkan virtual environment:
+    
+2. Aktifkan virtual environment:
     - Windows:
         ```sh
         seimbangin\Scripts\activate
         ```
-Instal dependencies:
+3. Instal dependencies:
     ```sh
     pip install -r requirements.txt
     ```
-Jalankan aplikasi:
+4. Jalankan aplikasi:
     ```sh
     uvicorn seimbangin_api:app --reload
     ```
